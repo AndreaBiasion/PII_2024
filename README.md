@@ -1,0 +1,3 @@
+# Event Detector from social media data
+
+Work in progress...
