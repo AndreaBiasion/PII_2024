@@ -10,9 +10,9 @@ import time
 
 
 # Replace the values with your own API_ID, API_HASH, PHONE_NUMBER
-api_id = "22359680"
-api_hash = "ec56214c6844908edfa17c4cc6778a1c"
-phone_number = "+393455294953"
+api_id = ""
+api_hash = ""
+phone_number = ""
 
 # Enter group id -100 after the digit
 group_name = -1001562033113
