@@ -2,28 +2,42 @@
 
 import json
 
+# TODO: check a new method for filtering messages --> war != warn but warn contains warn
+
 # Open the file containing the JSON data
 with open('messages.json', 'r') as file:
     # Load the JSON data
     data = json.load(file)
 
-# Initialize an empty list to store messages
-messages = []
+# Initialize an empty list to store filtered messages
+filtered_messages = []
+
+# Keywords to filter messages
+keywords = ["war"]
 
 # Check if data is a list of dictionaries
 if isinstance(data, list):
     # Iterate through each dictionary in the list
     for item in data:
-        # Check if the dictionary has a 'message' key
-        if 'text' in item:
-            # Append the value of the 'message' key to the messages list
-            messages.append(item['text'])
+        # Check if the dictionary has a 'text' key
+        if 'text' in item and item['text'] is not None:
+            # Check if any of the keywords are present in the message text
+            if any(keyword in item['text'] for keyword in keywords):
+                # Append the message to the filtered messages list
+                filtered_messages.append(item['text'])
 else:
-    # Check if data is a dictionary and has a 'message' key
+    # Check if data is a dictionary and has a 'text' key
     if isinstance(data, dict) and 'text' in data:
-        # Append the value of the 'message' key to the messages list
-        messages.append(data['text'])
+        # Check if any of the keywords are present in the message text
+        if any(keyword in data['text'] for keyword in keywords):
+            # Append the message to the filtered messages list
+            filtered_messages.append(data['text'])
 
-# e.g: print the extracted messages
-print(len(messages))
+# Print the filtered messages
+for message in filtered_messages:
+    print(message)
+
+
+
+
 
