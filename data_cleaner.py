@@ -5,7 +5,7 @@ import json
 # TODO: check a new method for filtering messages --> war != warn but warn contains warn
 
 # Open the file containing the JSON data
-with open('messages.json', 'r') as file:
+with open('messages1.json', 'r') as file:
     # Load the JSON data
     data = json.load(file)
 
