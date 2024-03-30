@@ -53,6 +53,11 @@ async def fetch_messages(client, entity, start_date, end_date, message_limit):
                 if processed_messages >= message_limit:
                     break
 
+            if not relevant_messages:
+                break
+
+            # print(processed_messages)
+
             # Update end_date for the next batch
             if messages_batch:
                 end_date = messages_batch[-1].date - timedelta(seconds=1)
@@ -73,7 +78,7 @@ async def main():
         entity = await client.get_entity(group_name)
         start_date = datetime(2024, 3, 1).replace(tzinfo=None)  # Making start_date timezone-naive
         end_date = datetime(2024, 3, 13, tzinfo=UTC)
-        message_limit = 500
+        message_limit = 5000
         await fetch_messages(client, entity, start_date, end_date, message_limit)
     end_time = time.time()  # Record end time
     print(f"Execution time: {end_time - start_time} seconds")
