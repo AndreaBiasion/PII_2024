@@ -5,6 +5,7 @@ import string
 from nltk.corpus import stopwords
 from pickle import dump
 
+keywords = ['biden ']
 
 # Open the file containing the JSON data
 def load_doc(filename):
@@ -55,4 +56,7 @@ dataset = load_doc('prova.json')
 dataset = clean_dataset(dataset)
 
 for date, text in dataset.items():
-    print(f"{date}: {text}")
+    for keyword in keywords:
+            if keyword in text:
+                print(f"Date: {date} Text: {text}")
+
