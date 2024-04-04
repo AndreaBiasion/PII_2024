@@ -10,41 +10,50 @@ from pickle import dump
 
 # Open the file containing the JSON data
 def load_doc(filename):
-    with open('prova.json', 'r') as file:
+    with open(filename, 'r') as file:
         # Load the JSON data
         data = json.load(file)
 
-    messages = []
+    messages = {}
     for item in data:
         # Check if the dictionary has a 'text' key
-        if 'text' in item and item['text'] is not None:
+        if 'date' in item and 'text' in item and item['text'] is not None and item['date'] is not None:
             # Check if any of the keywords are present in the message text
-                messages.append(item['text'])
+            messages[item['date']] = item['text']
 
     return messages
 
 
-
-def clean_doc(data):
-    data_string = json.dumps(data)
-    tokens = data_string.split()
+def clean_text(text):
+    # data_string = json.dumps(text)
+    tokens = text.split()
     table = str.maketrans('', '', string.punctuation)
 
     tokens = [w.translate(table) for w in tokens]
     stop_words = set(stopwords.words('english'))
 
     tokens = [w for w in tokens if not w in stop_words]
-    tokens = [word for word in tokens if len(word) > 1]
+    tokens = [word for word in tokens if len(word) > 2]
     tokens = ' '.join(tokens)
 
     return tokens
 
 
-def save_dataset(data, filename):
-    dump(data, open(filename, 'wb'))
+def clean_dataset(dataset):
+    for date, text in dataset.items():
+        dataset[date] = clean_text(text)
+
+    return dataset
+
+
+def save_dataset(dataset, filename):
+    dump(dataset, open(filename, 'wb'))
     print('Saved')
 
 
-data = load_doc('prova.json')
-tokens = clean_doc(data)
-print(tokens)
+dataset = load_doc('prova.json')
+
+dataset = clean_dataset(dataset)
+
+for date, text in dataset.items():
+    print(f"{date}: {text}")
