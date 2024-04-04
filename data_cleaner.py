@@ -6,8 +6,6 @@ from nltk.corpus import stopwords
 from pickle import dump
 
 
-# TODO: check a new method for filtering messages --> war != warn but warn contains warn
-
 # Open the file containing the JSON data
 def load_doc(filename):
     with open(filename, 'r') as file:
@@ -34,7 +32,8 @@ def clean_text(text):
 
     tokens = [w for w in tokens if not w in stop_words]
     tokens = [word for word in tokens if len(word) > 2]
-    tokens = ' '.join(tokens)
+    tokens = ' '.join(tokens).lower()
+
 
     return tokens
 
