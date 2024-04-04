@@ -13,7 +13,16 @@ def load_doc(filename):
     with open('prova.json', 'r') as file:
         # Load the JSON data
         data = json.load(file)
-    return data
+
+    messages = []
+    for item in data:
+        # Check if the dictionary has a 'text' key
+        if 'text' in item and item['text'] is not None:
+            # Check if any of the keywords are present in the message text
+                messages.append(item['text'])
+
+    return messages
+
 
 
 def clean_doc(data):
