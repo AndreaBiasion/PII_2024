@@ -76,12 +76,9 @@ async def main():
     start_time = time.time()  # Record start time
     async with TelegramClient('session_name', api_id, api_hash) as client:
         entity = await client.get_entity(group_name)
-        start_date = datetime(2024, 3, 1).replace(tzinfo=None)  # Making start_date timezone-naive
-        end_date = datetime(2024, 3, 13, tzinfo=UTC)
-        message_limit = 5000
-        start_date = datetime(2023, 1, 1).replace(tzinfo=None)  # Making start_date timezone-naive
+        start_date = datetime(2023, 3, 20).replace(tzinfo=None)  # Making start_date timezone-naive
         end_date = datetime(2024, 3, 30, tzinfo=UTC)
-        message_limit = 50000
+        message_limit = 500
         await fetch_messages(client, entity, start_date, end_date, message_limit)
     end_time = time.time()  # Record end time
     print(f"Execution time: {end_time - start_time} seconds")
@@ -105,5 +102,5 @@ def handle_message(message):
 asyncio.run(main())
 
 # Save messages to a JSON file
-with open('messages1.json', 'w') as f:
+with open('prova.json', 'w') as f:
     json.dump(messages, f, indent=4)

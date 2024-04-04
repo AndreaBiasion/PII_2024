@@ -1,43 +1,41 @@
 # This is used for cleaning the fetched data
 
 import json
+import string
+from nltk.corpus import stopwords
+from pickle import dump
+
 
 # TODO: check a new method for filtering messages --> war != warn but warn contains warn
 
 # Open the file containing the JSON data
-with open('messages1.json', 'r') as file:
-    # Load the JSON data
-    data = json.load(file)
-
-# Initialize an empty list to store filtered messages
-filtered_messages = []
-
-# Keywords to filter messages
-keywords = ["war"]
-
-# Check if data is a list of dictionaries
-if isinstance(data, list):
-    # Iterate through each dictionary in the list
-    for item in data:
-        # Check if the dictionary has a 'text' key
-        if 'text' in item and item['text'] is not None:
-            # Check if any of the keywords are present in the message text
-            if any(keyword in item['text'] for keyword in keywords):
-                # Append the message to the filtered messages list
-                filtered_messages.append(item['text'])
-else:
-    # Check if data is a dictionary and has a 'text' key
-    if isinstance(data, dict) and 'text' in data:
-        # Check if any of the keywords are present in the message text
-        if any(keyword in data['text'] for keyword in keywords):
-            # Append the message to the filtered messages list
-            filtered_messages.append(data['text'])
-
-# Print the filtered messages
-for message in filtered_messages:
-    print(message)
+def load_doc(filename):
+    with open('prova.json', 'r') as file:
+        # Load the JSON data
+        data = json.load(file)
+    return data
 
 
+def clean_doc(data):
+    data_string = json.dumps(data)
+    tokens = data_string.split()
+    table = str.maketrans('', '', string.punctuation)
+
+    tokens = [w.translate(table) for w in tokens]
+    stop_words = set(stopwords.words('english'))
+
+    tokens = [w for w in tokens if not w in stop_words]
+    tokens = [word for word in tokens if len(word) > 1]
+    tokens = ' '.join(tokens)
+
+    return tokens
 
 
+def save_dataset(data, filename):
+    dump(data, open(filename, 'wb'))
+    print('Saved')
 
+
+data = load_doc('prova.json')
+tokens = clean_doc(data)
+print(tokens)
