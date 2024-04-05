@@ -7,6 +7,7 @@ from pickle import dump
 
 keywords = ['biden ']
 
+
 # Open the file containing the JSON data
 def load_doc(filename):
     with open(filename, 'r') as file:
@@ -35,28 +36,17 @@ def clean_text(text):
     tokens = [word for word in tokens if len(word) > 2]
     tokens = ' '.join(tokens).lower()
 
-
     return tokens
 
 
 def clean_dataset(dataset):
     for date, text in dataset.items():
         dataset[date] = clean_text(text)
-
     return dataset
 
 
 def save_dataset(dataset, filename):
-    dump(dataset, open(filename, 'wb'))
-    print('Saved')
-
-
-dataset = load_doc('prova.json')
-
-dataset = clean_dataset(dataset)
-
-for date, text in dataset.items():
-    for keyword in keywords:
-            if keyword in text:
-                print(f"Date: {date} Text: {text}")
-
+    # Save messages to a JSON file
+    with open(filename, 'w') as f:
+        json.dump(dataset, f, indent=4)
+        print('Saved dataset')
