@@ -1,0 +1,2262 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "bbox": [
+                167.9294,
+                -14.8908,
+                167.9294,
+                -14.8908
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    167.9294,
+                    -14.8908
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424362,
+                "episodeid": 1565257,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Vanuatu",
+                "description": "Earthquake in Vanuatu",
+                "htmldescription": "Green M 5 Earthquake in Vanuatu at: 16 Apr 2024 07:56:45.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424362&episodeid=1565257",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424362&episodeid=1565257&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424362"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Vanuatu",
+                "fromdate": "2024-04-16T07:56:45",
+                "todate": "2024-04-16T07:56:45",
+                "datemodified": "2024-04-16T08:37:01",
+                "iso3": "VUT",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "VUT",
+                        "countryname": "Vanuatu"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 5.0,
+                    "severitytext": "Magnitude 5M, Depth:39.594km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                105.9454,
+                -7.2568,
+                105.9454,
+                -7.2568
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.9454,
+                    -7.2568
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424344,
+                "episodeid": 1565229,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Indonesia",
+                "description": "Earthquake in Indonesia",
+                "htmldescription": "Green M 4.8 Earthquake in Indonesia at: 16 Apr 2024 03:18:21.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424344&episodeid=1565229",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424344&episodeid=1565229&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424344"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Indonesia",
+                "fromdate": "2024-04-16T03:18:21",
+                "todate": "2024-04-16T03:18:21",
+                "datemodified": "2024-04-16T05:37:22",
+                "iso3": "IDN",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "IDN",
+                        "countryname": "Indonesia"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.8,
+                    "severitytext": "Magnitude 4.8M, Depth:35km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                124.9298,
+                -7.0343,
+                124.9298,
+                -7.0343
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    124.9298,
+                    -7.0343
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424345,
+                "episodeid": 1565230,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Indonesia",
+                "description": "Earthquake in Indonesia",
+                "htmldescription": "Green M 4.8 Earthquake in Indonesia at: 16 Apr 2024 03:07:14.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424345&episodeid=1565230",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424345&episodeid=1565230&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424345"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Indonesia",
+                "fromdate": "2024-04-16T03:07:14",
+                "todate": "2024-04-16T03:07:14",
+                "datemodified": "2024-04-16T05:36:42",
+                "iso3": "IDN",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "IDN",
+                        "countryname": "Indonesia"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.8,
+                    "severitytext": "Magnitude 4.8M, Depth:492.945km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                131.7355,
+                29.4708,
+                131.7355,
+                29.4708
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    131.7355,
+                    29.4708
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424334,
+                "episodeid": 1565220,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Japan",
+                "description": "Earthquake in Japan",
+                "htmldescription": "Green M 5.9 Earthquake in Japan at: 15 Apr 2024 22:38:57.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424334&episodeid=1565220",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424334&episodeid=1565220&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424334"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Japan",
+                "fromdate": "2024-04-15T22:38:57",
+                "todate": "2024-04-15T22:38:57",
+                "datemodified": "2024-04-16T05:35:42",
+                "iso3": "JPN",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "JPN",
+                        "countryname": "Japan"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 5.9,
+                    "severitytext": "Magnitude 5.9M, Depth:8.034km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                172.7784,
+                52.5633,
+                172.7784,
+                52.5633
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.7784,
+                    52.5633
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424315,
+                "episodeid": 1565186,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in United States",
+                "description": "Earthquake in United States",
+                "htmldescription": "Green M 4.6 Earthquake in United States at: 15 Apr 2024 18:17:02.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424315&episodeid=1565186",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424315&episodeid=1565186&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424315"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "United States",
+                "fromdate": "2024-04-15T18:17:02",
+                "todate": "2024-04-15T18:17:02",
+                "datemodified": "2024-04-16T00:04:23",
+                "iso3": "USA",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "USA",
+                        "countryname": "United States"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.6,
+                    "severitytext": "Magnitude 4.6M, Depth:35km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                150.4474,
+                -6.2966,
+                150.4474,
+                -6.2966
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.4474,
+                    -6.2966
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424299,
+                "episodeid": 1565165,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Papua New Guinea",
+                "description": "Earthquake in Papua New Guinea",
+                "htmldescription": "Green M 4.5 Earthquake in Papua New Guinea at: 15 Apr 2024 15:42:26.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424299&episodeid=1565165",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424299&episodeid=1565165&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424299"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Papua New Guinea",
+                "fromdate": "2024-04-15T15:42:26",
+                "todate": "2024-04-15T15:42:26",
+                "datemodified": "2024-04-15T16:22:42",
+                "iso3": "PNG",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "PNG",
+                        "countryname": "Papua New Guinea"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.5,
+                    "severitytext": "Magnitude 4.5M, Depth:10km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                151.8925,
+                -5.2285,
+                151.8925,
+                -5.2285
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.8925,
+                    -5.2285
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424242,
+                "episodeid": 1565097,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Papua New Guinea",
+                "description": "Earthquake in Papua New Guinea",
+                "htmldescription": "Green M 5.4 Earthquake in Papua New Guinea at: 15 Apr 2024 10:43:27.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424242&episodeid=1565097",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424242&episodeid=1565097&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424242"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Papua New Guinea",
+                "fromdate": "2024-04-15T10:43:27",
+                "todate": "2024-04-15T10:43:27",
+                "datemodified": "2024-04-15T12:49:48",
+                "iso3": "PNG",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "PNG",
+                        "countryname": "Papua New Guinea"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 5.4,
+                    "severitytext": "Magnitude 5.4M, Depth:51.85km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                26.1818,
+                34.1498,
+                26.1818,
+                34.1498
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.1818,
+                    34.1498
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424232,
+                "episodeid": 1565150,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Greece",
+                "description": "Earthquake in Greece",
+                "htmldescription": "Green M 4.7 Earthquake in Greece at: 15 Apr 2024 06:06:29.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424232&episodeid=1565150",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424232&episodeid=1565150&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424232"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Greece",
+                "fromdate": "2024-04-15T06:06:29",
+                "todate": "2024-04-15T06:06:29",
+                "datemodified": "2024-04-15T14:59:22",
+                "iso3": "GRC",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "GRC",
+                        "countryname": "Greece"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.7,
+                    "severitytext": "Magnitude 4.7M, Depth:26.793km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                -86.9377,
+                11.0588,
+                -86.9377,
+                11.0588
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.9377,
+                    11.0588
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424201,
+                "episodeid": 1565051,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Nicaragua",
+                "description": "Earthquake in Nicaragua",
+                "htmldescription": "Green M 4.7 Earthquake in Nicaragua at: 14 Apr 2024 23:29:05.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424201&episodeid=1565051",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424201&episodeid=1565051&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424201"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Nicaragua",
+                "fromdate": "2024-04-14T23:29:05",
+                "todate": "2024-04-14T23:29:05",
+                "datemodified": "2024-04-15T00:09:23",
+                "iso3": "NIC",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "NIC",
+                        "countryname": "Nicaragua"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.7,
+                    "severitytext": "Magnitude 4.7M, Depth:10km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                151.0968,
+                -5.8184,
+                151.0968,
+                -5.8184
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.0968,
+                    -5.8184
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424183,
+                "episodeid": 1565034,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Papua New Guinea",
+                "description": "Earthquake in Papua New Guinea",
+                "htmldescription": "Green M 6.5 Earthquake in Papua New Guinea at: 14 Apr 2024 20:56:29.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424183&episodeid=1565034",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424183&episodeid=1565034&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424183"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0226406740610931,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Papua New Guinea",
+                "fromdate": "2024-04-14T20:56:29",
+                "todate": "2024-04-14T20:56:29",
+                "datemodified": "2024-04-15T21:41:27",
+                "iso3": "PNG",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "PNG",
+                        "countryname": "Papua New Guinea"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 6.5,
+                    "severitytext": "Magnitude 6.5M, Depth:49km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                -91.1647,
+                13.9522,
+                -91.1647,
+                13.9522
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -91.1647,
+                    13.9522
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424171,
+                "episodeid": 1565012,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Guatemala",
+                "description": "Earthquake in Guatemala",
+                "htmldescription": "Green M 4.8 Earthquake in Guatemala at: 14 Apr 2024 19:14:58.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424171&episodeid=1565012",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424171&episodeid=1565012&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424171"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Guatemala",
+                "fromdate": "2024-04-14T19:14:58",
+                "todate": "2024-04-14T19:14:58",
+                "datemodified": "2024-04-14T19:55:05",
+                "iso3": "GTM",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "GTM",
+                        "countryname": "Guatemala"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.8,
+                    "severitytext": "Magnitude 4.8M, Depth:80.996km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                101.1403,
+                37.767,
+                101.1403,
+                37.767
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.1403,
+                    37.767
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424169,
+                "episodeid": 1565009,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in China",
+                "description": "Earthquake in China",
+                "htmldescription": "Green M 4.9 Earthquake in China at: 14 Apr 2024 18:16:27.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424169&episodeid=1565009",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424169&episodeid=1565009&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424169"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "China",
+                "fromdate": "2024-04-14T18:16:27",
+                "todate": "2024-04-14T18:16:27",
+                "datemodified": "2024-04-14T18:56:42",
+                "iso3": "CHN",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "CHN",
+                        "countryname": "China"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.9,
+                    "severitytext": "Magnitude 4.9M, Depth:13.648km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                146.0273,
+                21.1859,
+                146.0273,
+                21.1859
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.0273,
+                    21.1859
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424164,
+                "episodeid": 1565003,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in ",
+                "description": "Earthquake in ",
+                "htmldescription": "Green M 4.9 Earthquake off-shore at: 14 Apr 2024 17:39:18.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424164&episodeid=1565003",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424164&episodeid=1565003&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424164"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "",
+                "fromdate": "2024-04-14T17:39:18",
+                "todate": "2024-04-14T17:39:18",
+                "datemodified": "2024-04-14T18:03:42",
+                "iso3": "",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [],
+                "severitydata": {
+                    "severity": 4.9,
+                    "severitytext": "Magnitude 4.9M, Depth:10km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                78.5905,
+                41.3843,
+                78.5905,
+                41.3843
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.5905,
+                    41.3843
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424143,
+                "episodeid": 1564984,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in China",
+                "description": "Earthquake in China",
+                "htmldescription": "Green M 4.6 Earthquake in China at: 14 Apr 2024 13:51:01.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424143&episodeid=1564984",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424143&episodeid=1564984&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424143"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "China",
+                "fromdate": "2024-04-14T13:51:01",
+                "todate": "2024-04-14T13:51:01",
+                "datemodified": "2024-04-14T15:00:43",
+                "iso3": "CHN",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "CHN",
+                        "countryname": "China"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.6,
+                    "severitytext": "Magnitude 4.6M, Depth:10km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                -80.9257,
+                -1.5819,
+                -80.9257,
+                -1.5819
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.9257,
+                    -1.5819
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424114,
+                "episodeid": 1564944,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Ecuador",
+                "description": "Earthquake in Ecuador",
+                "htmldescription": "Green M 4.6 Earthquake in Ecuador at: 14 Apr 2024 10:58:42.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424114&episodeid=1564944",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424114&episodeid=1564944&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424114"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Ecuador",
+                "fromdate": "2024-04-14T10:58:42",
+                "todate": "2024-04-14T10:58:42",
+                "datemodified": "2024-04-14T11:39:06",
+                "iso3": "ECU",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "ECU",
+                        "countryname": "Ecuador"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.6,
+                    "severitytext": "Magnitude 4.6M, Depth:19.602km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                -177.6607,
+                -19.2191,
+                -177.6607,
+                -19.2191
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -177.6607,
+                    -19.2191
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424110,
+                "episodeid": 1564957,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Fiji",
+                "description": "Earthquake in Fiji",
+                "htmldescription": "Green M 4.5 Earthquake in Fiji at: 14 Apr 2024 10:15:19.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424110&episodeid=1564957",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424110&episodeid=1564957&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424110"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Fiji",
+                "fromdate": "2024-04-14T10:15:19",
+                "todate": "2024-04-14T10:15:19",
+                "datemodified": "2024-04-14T13:10:45",
+                "iso3": "FJI",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "FJI",
+                        "countryname": "Fiji"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.5,
+                    "severitytext": "Magnitude 4.5M, Depth:389.428km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                -175.5624,
+                -18.4614,
+                -175.5624,
+                -18.4614
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -175.5624,
+                    -18.4614
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424108,
+                "episodeid": 1564937,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Tonga",
+                "description": "Earthquake in Tonga",
+                "htmldescription": "Green M 4.9 Earthquake in Tonga at: 14 Apr 2024 09:47:51.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424108&episodeid=1564937",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424108&episodeid=1564937&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424108"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Tonga",
+                "fromdate": "2024-04-14T09:47:51",
+                "todate": "2024-04-14T09:47:51",
+                "datemodified": "2024-04-14T10:28:08",
+                "iso3": "TON",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "TON",
+                        "countryname": "Tonga"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.9,
+                    "severitytext": "Magnitude 4.9M, Depth:228.554km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                -178.8661,
+                -35.2138,
+                -178.8661,
+                -35.2138
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -178.8661,
+                    -35.2138
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424096,
+                "episodeid": 1564923,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in ",
+                "description": "Earthquake in ",
+                "htmldescription": "Green M 4.6 Earthquake off-shore at: 14 Apr 2024 06:05:07.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424096&episodeid=1564923",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424096&episodeid=1564923&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424096"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "",
+                "fromdate": "2024-04-14T06:05:07",
+                "todate": "2024-04-14T06:05:07",
+                "datemodified": "2024-04-14T08:45:21",
+                "iso3": "",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [],
+                "severitydata": {
+                    "severity": 4.6,
+                    "severitytext": "Magnitude 4.6M, Depth:10km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                121.4726,
+                19.8735,
+                121.4726,
+                19.8735
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.4726,
+                    19.8735
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424084,
+                "episodeid": 1564912,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Philippines",
+                "description": "Earthquake in Philippines",
+                "htmldescription": "Green M 4.8 Earthquake in Philippines at: 14 Apr 2024 05:31:49.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424084&episodeid=1564912",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424084&episodeid=1564912&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424084"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Philippines",
+                "fromdate": "2024-04-14T05:31:49",
+                "todate": "2024-04-14T05:31:49",
+                "datemodified": "2024-04-14T06:53:02",
+                "iso3": "PHL",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "PHL",
+                        "countryname": "Philippines"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.8,
+                    "severitytext": "Magnitude 4.8M, Depth:42.997km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                -37.1644,
+                7.5704,
+                -37.1644,
+                7.5704
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -37.1644,
+                    7.5704
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424081,
+                "episodeid": 1564905,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in ",
+                "description": "Earthquake in ",
+                "htmldescription": "Green M 5.3 Earthquake off-shore at: 14 Apr 2024 05:28:47.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424081&episodeid=1564905",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424081&episodeid=1564905&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424081"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "",
+                "fromdate": "2024-04-14T05:28:47",
+                "todate": "2024-04-14T05:28:47",
+                "datemodified": "2024-04-14T06:00:46",
+                "iso3": "",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [],
+                "severitydata": {
+                    "severity": 5.3,
+                    "severitytext": "Magnitude 5.3M, Depth:10km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                -178.6686,
+                -29.943,
+                -178.6686,
+                -29.943
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -178.6686,
+                    -29.943
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424075,
+                "episodeid": 1564893,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in ",
+                "description": "Earthquake in ",
+                "htmldescription": "Green M 4.6 Earthquake off-shore at: 14 Apr 2024 03:37:41.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424075&episodeid=1564893",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424075&episodeid=1564893&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424075"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "",
+                "fromdate": "2024-04-14T03:37:41",
+                "todate": "2024-04-14T03:37:41",
+                "datemodified": "2024-04-14T05:04:47",
+                "iso3": "",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [],
+                "severitydata": {
+                    "severity": 4.6,
+                    "severitytext": "Magnitude 4.6M, Depth:179.036km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                -63.7425,
+                -23.606,
+                -63.7425,
+                -23.606
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.7425,
+                    -23.606
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424067,
+                "episodeid": 1564883,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Argentina",
+                "description": "Earthquake in Argentina",
+                "htmldescription": "Green M 4.5 Earthquake in Argentina at: 14 Apr 2024 03:16:24.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424067&episodeid=1564883",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424067&episodeid=1564883&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424067"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Argentina",
+                "fromdate": "2024-04-14T03:16:24",
+                "todate": "2024-04-14T03:16:24",
+                "datemodified": "2024-04-14T03:56:47",
+                "iso3": "ARG",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "ARG",
+                        "countryname": "Argentina"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.5,
+                    "severitytext": "Magnitude 4.5M, Depth:555.241km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                23.3997,
+                38.9609,
+                23.3997,
+                38.9609
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3997,
+                    38.9609
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424047,
+                "episodeid": 1564877,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Greece",
+                "description": "Earthquake in Greece",
+                "htmldescription": "Green M 4.5 Earthquake in Greece at: 14 Apr 2024 02:02:43.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424047&episodeid=1564877",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424047&episodeid=1564877&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424047"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Greece",
+                "fromdate": "2024-04-14T02:02:43",
+                "todate": "2024-04-14T02:02:43",
+                "datemodified": "2024-04-14T02:43:02",
+                "iso3": "GRC",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "GRC",
+                        "countryname": "Greece"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.5,
+                    "severitytext": "Magnitude 4.5M, Depth:10km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                125.2917,
+                12.3602,
+                125.2917,
+                12.3602
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    125.2917,
+                    12.3602
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424040,
+                "episodeid": 1564855,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Philippines",
+                "description": "Earthquake in Philippines",
+                "htmldescription": "Green M 4.5 Earthquake in Philippines at: 13 Apr 2024 19:32:31.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424040&episodeid=1564855",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424040&episodeid=1564855&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424040"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Philippines",
+                "fromdate": "2024-04-13T19:32:31",
+                "todate": "2024-04-13T19:32:31",
+                "datemodified": "2024-04-13T23:05:23",
+                "iso3": "PHL",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "PHL",
+                        "countryname": "Philippines"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.5,
+                    "severitytext": "Magnitude 4.5M, Depth:48.79km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                126.8087,
+                2.4662,
+                126.8087,
+                2.4662
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.8087,
+                    2.4662
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424015,
+                "episodeid": 1564825,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Indonesia",
+                "description": "Earthquake in Indonesia",
+                "htmldescription": "Green M 4.6 Earthquake in Indonesia at: 13 Apr 2024 17:46:59.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424015&episodeid=1564825",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424015&episodeid=1564825&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424015"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Indonesia",
+                "fromdate": "2024-04-13T17:46:59",
+                "todate": "2024-04-13T17:46:59",
+                "datemodified": "2024-04-13T18:50:45",
+                "iso3": "IDN",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "IDN",
+                        "countryname": "Indonesia"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.6,
+                    "severitytext": "Magnitude 4.6M, Depth:42.242km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                126.5866,
+                2.094,
+                126.5866,
+                2.094
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.5866,
+                    2.094
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424009,
+                "episodeid": 1564813,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Indonesia",
+                "description": "Earthquake in Indonesia",
+                "htmldescription": "Green M 5.3 Earthquake in Indonesia at: 13 Apr 2024 16:40:55.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424009&episodeid=1564813",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424009&episodeid=1564813&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424009"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Indonesia",
+                "fromdate": "2024-04-13T16:40:55",
+                "todate": "2024-04-13T16:40:55",
+                "datemodified": "2024-04-13T17:21:03",
+                "iso3": "IDN",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "IDN",
+                        "countryname": "Indonesia"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 5.3,
+                    "severitytext": "Magnitude 5.3M, Depth:40.927km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                126.1749,
+                1.2678,
+                126.1749,
+                1.2678
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.1749,
+                    1.2678
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424003,
+                "episodeid": 1564815,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Indonesia",
+                "description": "Earthquake in Indonesia",
+                "htmldescription": "Green M 4.6 Earthquake in Indonesia at: 13 Apr 2024 15:50:17.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424003&episodeid=1564815",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424003&episodeid=1564815&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424003"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Indonesia",
+                "fromdate": "2024-04-13T15:50:17",
+                "todate": "2024-04-13T15:50:17",
+                "datemodified": "2024-04-13T17:18:22",
+                "iso3": "IDN",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "IDN",
+                        "countryname": "Indonesia"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.6,
+                    "severitytext": "Magnitude 4.6M, Depth:49.221km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                121.4222,
+                -49.0065,
+                121.4222,
+                -49.0065
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.4222,
+                    -49.0065
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1424000,
+                "episodeid": 1564799,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in ",
+                "description": "Earthquake in ",
+                "htmldescription": "Green M 5.1 Earthquake off-shore at: 13 Apr 2024 15:17:18.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1424000&episodeid=1564799",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1424000&episodeid=1564799&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1424000"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "",
+                "fromdate": "2024-04-13T15:17:18",
+                "todate": "2024-04-13T15:17:18",
+                "datemodified": "2024-04-13T15:39:43",
+                "iso3": "",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [],
+                "severitydata": {
+                    "severity": 5.1,
+                    "severitytext": "Magnitude 5.1M, Depth:10km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                121.5842,
+                23.9705,
+                121.5842,
+                23.9705
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.5842,
+                    23.9705
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1423995,
+                "episodeid": 1564807,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Taiwan",
+                "description": "Earthquake in Taiwan",
+                "htmldescription": "Green M 4.7 Earthquake in Taiwan at: 13 Apr 2024 14:26:36.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1423995&episodeid=1564807",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1423995&episodeid=1564807&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1423995"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Taiwan",
+                "fromdate": "2024-04-13T14:26:36",
+                "todate": "2024-04-13T14:26:36",
+                "datemodified": "2024-04-13T16:36:02",
+                "iso3": "TWN",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "TWN",
+                        "countryname": "Taiwan"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.7,
+                    "severitytext": "Magnitude 4.7M, Depth:16.688km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                121.6218,
+                23.6689,
+                121.6218,
+                23.6689
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.6218,
+                    23.6689
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1423974,
+                "episodeid": 1564789,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Taiwan",
+                "description": "Earthquake in Taiwan",
+                "htmldescription": "Green M 4.7 Earthquake in Taiwan at: 13 Apr 2024 12:38:48.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1423974&episodeid=1564789",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1423974&episodeid=1564789&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1423974"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Taiwan",
+                "fromdate": "2024-04-13T12:38:48",
+                "todate": "2024-04-13T12:38:48",
+                "datemodified": "2024-04-13T14:23:24",
+                "iso3": "TWN",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "TWN",
+                        "countryname": "Taiwan"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.7,
+                    "severitytext": "Magnitude 4.7M, Depth:9.769km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                138.2415,
+                31.5394,
+                138.2415,
+                31.5394
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.2415,
+                    31.5394
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1423973,
+                "episodeid": 1564910,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in ",
+                "description": "Earthquake in ",
+                "htmldescription": "Green M 4.5 Earthquake off-shore at: 13 Apr 2024 12:00:29.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1423973&episodeid=1564910",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1423973&episodeid=1564910&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1423973"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "",
+                "fromdate": "2024-04-13T12:00:29",
+                "todate": "2024-04-13T12:00:29",
+                "datemodified": "2024-04-14T06:18:22",
+                "iso3": "",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [],
+                "severitydata": {
+                    "severity": 4.5,
+                    "severitytext": "Magnitude 4.5M, Depth:382.394km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                -173.0416,
+                -15.0104,
+                -173.0416,
+                -15.0104
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -173.0416,
+                    -15.0104
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1423968,
+                "episodeid": 1564759,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Tonga",
+                "description": "Earthquake in Tonga",
+                "htmldescription": "Green M 5.3 Earthquake in Tonga at: 13 Apr 2024 10:47:02.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1423968&episodeid=1564759",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1423968&episodeid=1564759&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1423968"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Tonga",
+                "fromdate": "2024-04-13T10:47:02",
+                "todate": "2024-04-13T10:47:02",
+                "datemodified": "2024-04-13T11:09:22",
+                "iso3": "TON",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "TON",
+                        "countryname": "Tonga"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 5.3,
+                    "severitytext": "Magnitude 5.3M, Depth:10km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                -177.0026,
+                34.0384,
+                -177.0026,
+                34.0384
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -177.0026,
+                    34.0384
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1423993,
+                "episodeid": 1564788,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in ",
+                "description": "Earthquake in ",
+                "htmldescription": "Green M 4.7 Earthquake off-shore at: 13 Apr 2024 10:37:54.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1423993&episodeid=1564788",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1423993&episodeid=1564788&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1423993"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "",
+                "fromdate": "2024-04-13T10:37:54",
+                "todate": "2024-04-13T10:37:54",
+                "datemodified": "2024-04-13T14:20:05",
+                "iso3": "",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [],
+                "severitydata": {
+                    "severity": 4.7,
+                    "severitytext": "Magnitude 4.7M, Depth:10km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                125.7685,
+                11.8716,
+                125.7685,
+                11.8716
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    125.7685,
+                    11.8716
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1423962,
+                "episodeid": 1564752,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Philippines",
+                "description": "Earthquake in Philippines",
+                "htmldescription": "Green M 4.7 Earthquake in Philippines at: 13 Apr 2024 09:10:49.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1423962&episodeid=1564752",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1423962&episodeid=1564752&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1423962"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Philippines",
+                "fromdate": "2024-04-13T09:10:49",
+                "todate": "2024-04-13T09:10:49",
+                "datemodified": "2024-04-13T10:04:45",
+                "iso3": "PHL",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "PHL",
+                        "countryname": "Philippines"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.7,
+                    "severitytext": "Magnitude 4.7M, Depth:40.471km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                -177.6404,
+                -20.3386,
+                -177.6404,
+                -20.3386
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -177.6404,
+                    -20.3386
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1423957,
+                "episodeid": 1564749,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Fiji",
+                "description": "Earthquake in Fiji",
+                "htmldescription": "Green M 4.9 Earthquake in Fiji at: 13 Apr 2024 08:48:52.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1423957&episodeid=1564749",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1423957&episodeid=1564749&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1423957"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Fiji",
+                "fromdate": "2024-04-13T08:48:52",
+                "todate": "2024-04-13T08:48:52",
+                "datemodified": "2024-04-13T09:54:02",
+                "iso3": "FJI",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "FJI",
+                        "countryname": "Fiji"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.9,
+                    "severitytext": "Magnitude 4.9M, Depth:499.096km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                88.8897,
+                -42.0915,
+                88.8897,
+                -42.0915
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.8897,
+                    -42.0915
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1423949,
+                "episodeid": 1564733,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in ",
+                "description": "Earthquake in ",
+                "htmldescription": "Green M 5 Earthquake off-shore at: 13 Apr 2024 06:53:44.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1423949&episodeid=1564733",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1423949&episodeid=1564733&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1423949"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "",
+                "fromdate": "2024-04-13T06:53:44",
+                "todate": "2024-04-13T06:53:44",
+                "datemodified": "2024-04-13T07:17:22",
+                "iso3": "",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [],
+                "severitydata": {
+                    "severity": 5.0,
+                    "severitytext": "Magnitude 5M, Depth:10km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                126.7545,
+                2.2509,
+                126.7545,
+                2.2509
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.7545,
+                    2.2509
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1423947,
+                "episodeid": 1564729,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in Indonesia",
+                "description": "Earthquake in Indonesia",
+                "htmldescription": "Green M 5.2 Earthquake in Indonesia at: 13 Apr 2024 06:26:35.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1423947&episodeid=1564729",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1423947&episodeid=1564729&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1423947"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "Indonesia",
+                "fromdate": "2024-04-13T06:26:35",
+                "todate": "2024-04-13T06:26:35",
+                "datemodified": "2024-04-13T06:49:02",
+                "iso3": "IDN",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "IDN",
+                        "countryname": "Indonesia"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 5.2,
+                    "severitytext": "Magnitude 5.2M, Depth:38.746km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                81.6708,
+                33.4243,
+                81.6708,
+                33.4243
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    81.6708,
+                    33.4243
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1423942,
+                "episodeid": 1564724,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in China",
+                "description": "Earthquake in China",
+                "htmldescription": "Green M 4.5 Earthquake in China at: 13 Apr 2024 05:44:05.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1423942&episodeid=1564724",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1423942&episodeid=1564724&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1423942"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "China",
+                "fromdate": "2024-04-13T05:44:05",
+                "todate": "2024-04-13T05:44:05",
+                "datemodified": "2024-04-13T06:24:24",
+                "iso3": "CHN",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [
+                    {
+                        "iso3": "CHN",
+                        "countryname": "China"
+                    }
+                ],
+                "severitydata": {
+                    "severity": 4.5,
+                    "severitytext": "Magnitude 4.5M, Depth:10km",
+                    "severityunit": "M"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "bbox": [
+                179.7249,
+                -25.674,
+                179.7249,
+                -25.674
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    179.7249,
+                    -25.674
+                ]
+            },
+            "properties": {
+                "eventtype": "EQ",
+                "eventid": 1423940,
+                "episodeid": 1564717,
+                "eventname": "",
+                "glide": "",
+                "name": "Earthquake in ",
+                "description": "Earthquake in ",
+                "htmldescription": "Green M 4.6 Earthquake off-shore at: 13 Apr 2024 04:38:20.",
+                "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png",
+                "url": {
+                    "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1423940&episodeid=1564717",
+                    "report": "https://www.gdacs.org/report.aspx?eventid=1423940&episodeid=1564717&eventtype=EQ",
+                    "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=EQ&eventid=1423940"
+                },
+                "alertlevel": "Green",
+                "alertscore": 1,
+                "episodealertlevel": "Green",
+                "episodealertscore": 0.0,
+                "istemporary": "false",
+                "iscurrent": "true",
+                "country": "",
+                "fromdate": "2024-04-13T04:38:20",
+                "todate": "2024-04-13T04:38:20",
+                "datemodified": "2024-04-13T04:58:03",
+                "iso3": "",
+                "source": "NEIC",
+                "sourceid": "",
+                "polygonlabel": "Centroid",
+                "Class": "Point_Centroid",
+                "affectedcountries": [],
+                "severitydata": {
+                    "severity": 4.6,
+                    "severitytext": "Magnitude 4.6M, Depth:502.422km",
+                    "severityunit": "M"
+                }
+            }
+        }
+    ],
+    "bbox": null
+}
