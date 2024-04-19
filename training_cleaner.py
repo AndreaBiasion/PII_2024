@@ -37,7 +37,7 @@ class DataProcessor:
         self.span = difference_hours / 6
 
         # Initialize counters
-        self.keywords_counter = {'bingo': [0]*int(self.span), 'war': [0]*int(self.span)}
+        self.keywords_counter = {'earthquake': [0]*int(self.span), 'quake': [0]*int(self.span), 'shock': [0]*int(self.span)}
         self.total_words_counter = [0]*int(self.span)
 
         # Iterate through the data in 6-hour intervals
@@ -86,9 +86,9 @@ class DataPlotter:
 
 
 # Usage example
-processor = DataProcessor('cleaned_datasets/clean_data.json')
+processor = DataProcessor('cleaned_datasets/al_jazeera_clean.json')
 processor.load_data()
-processor.process_data(datetime(2024, 3, 28, 0, 0, 0), datetime(2024, 3, 29, 23, 59, 0))
+processor.process_data(datetime(2023, 9, 6, 0, 0, 0), datetime(2024, 3, 29, 23, 59, 0))
 
 plotter = DataPlotter(processor)
 plotter.plot_data()
