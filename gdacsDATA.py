@@ -10,5 +10,5 @@ eq_events = client.latest_events(event_type="EQ")
 eq_events_dict = eq_events.dict()
 
 # Write the earthquake events to a JSON file
-with open('events.json', 'w') as f:
+with open('datasets/events_dataset/events.json', 'w') as f:
     json.dump(eq_events_dict, f, indent=4)

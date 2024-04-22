@@ -1,6 +1,5 @@
 import json
 from datetime import datetime, timedelta, timezone
-import matplotlib.pyplot as plt
 
 class DataProcessor:
     def __init__(self, filename):
@@ -60,35 +59,4 @@ class DataProcessor:
             pos += 1
 
 
-class DataPlotter:
-    def __init__(self, processor):
-        self.processor = processor
 
-    def plot_data(self):
-        timeline = [self.processor.start_date + i * self.processor.interval for i in range(int(self.processor.span))]  # Timeline of intervals
-        keywords = list(self.processor.keywords_counter.keys())  # List of keywords
-
-        # Plot keyword frequencies over time
-        plt.figure(figsize=(12, 6))
-        for keyword in keywords:
-            plt.plot(timeline, self.processor.keywords_counter[keyword], label=keyword)
-
-        # Add labels and legend
-        plt.title('Keyword Frequencies Over Time')
-        plt.xlabel('Time')
-        plt.ylabel('Frequency')
-        plt.legend()
-        plt.xticks(rotation=45)
-        plt.tight_layout()
-
-        # Show plot
-        plt.show()
-
-
-# Usage example
-processor = DataProcessor('cleaned_datasets/al_jazeera_clean.json')
-processor.load_data()
-processor.process_data(datetime(2023, 9, 6, 0, 0, 0), datetime(2024, 3, 29, 23, 59, 0))
-
-plotter = DataPlotter(processor)
-plotter.plot_data()
