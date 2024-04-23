@@ -1,6 +1,7 @@
 import json
 from datetime import datetime, timedelta, timezone
 
+
 class DataProcessor:
     def __init__(self, filename):
         self.filename = filename
@@ -11,6 +12,7 @@ class DataProcessor:
         self.end_date = None
         self.interval = None
         self.span = None
+        self.normalized_vector = None
 
     def load_data(self):
         with open(self.filename, 'r') as file:
@@ -36,8 +38,9 @@ class DataProcessor:
         self.span = difference_hours / 6
 
         # Initialize counters
-        self.keywords_counter = {'earthquake': [0]*int(self.span), 'quake': [0]*int(self.span), 'shock': [0]*int(self.span)}
-        self.total_words_counter = [0]*int(self.span)
+        self.keywords_counter = {'earthquake': [0] * int(self.span), 'quake': [0] * int(self.span),
+                                 'shock': [0] * int(self.span), 'magnitude': [0] * int(self.span)}
+        self.total_words_counter = [0] * int(self.span)
 
         # Iterate through the data in 6-hour intervals
         pos = 0
@@ -58,5 +61,17 @@ class DataProcessor:
             current_date = next_date
             pos += 1
 
+        for key, value in self.keywords_counter.items():
+            for i in range(0, len(self.total_words_counter)):
+                if self.total_words_counter[i] != 0:
+                    value[i] = value[i] / self.total_words_counter[i]
 
+        self.normalized_vector = [0] * len(self.total_words_counter)
 
+        for key, value in self.keywords_counter.items():
+            #print(key, value)
+            for i in range(0, len(self.normalized_vector)):
+                self.normalized_vector[i] += value[i]
+
+        #for i in range(0, len(self.normalized_vector)):
+            #print(self.normalized_vector[i])
