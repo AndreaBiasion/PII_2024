@@ -1,4 +1,4 @@
-print("Work in progress...")
+#print("Work in progress...")
 
 from data_cleaner import *
 from data_plotter import *
@@ -39,32 +39,26 @@ def check_precision(filename, detector, start_date, end_date):
         # Move to the next interval
         current_date += interval
 
-    TP = 0
-    FP = 0
-    FN = 0
+        TP = 0
+        FP = 0
+        TN = 0
 
-    for i in range(len(earthquake_occurrences)):
-        if earthquake_occurrences[i] == 1 and detector.vector[i] == 1:
-            TP += 1
-        elif earthquake_occurrences[i] == 0 and detector.vector[i] == 0:
-            TP += 1
-        elif earthquake_occurrences[i] == 1 and detector.vector[i] == 0:
-            FN += 1
-        elif earthquake_occurrences[i] == 0 and detector.vector[i] == 1:
-            FP += 1
+        # Calculate True Positives, False Positives, and False Negatives
+        TP = sum((gt == 1) and (pred == 1) for gt, pred in zip(earthquake_occurrences, detector.vector))
+        FP = sum((gt == 0) and (pred == 1) for gt, pred in zip(earthquake_occurrences, detector.vector))
+        FN = sum((gt == 1) and (pred == 0) for gt, pred in zip(earthquake_occurrences, detector.vector))
 
-    print(f'Precision: {TP/(TP+FP) * 100:.2f}%')
-    print(f'Recall: {TP/(TP+FN) * 100:.2f}%')
+    print(f'Precision: {TP / (TP + FP) * 100:.2f}%')
+    print(f'Recall: {TP / (TP + FN) * 100:.2f}%')
 
 
+#dataset = load_doc('datasets/raw_datasets/rtnews_group_data.json')
 
-dataset = load_doc('datasets/raw_datasets/aljazeera.json')
-
-dataset = clean_dataset(dataset)
+#dataset = clean_dataset(dataset)
 
 print("Cleaned dataset")
 
-#save_dataset(dataset, 'datasets/cleaned_datasets/al_jazeera_clean.json')
+#save_dataset(dataset, 'datasets/cleaned_datasets/rtnews_group_data_clean.json')
 
 # Usage example
 processor = DataProcessor('datasets/cleaned_datasets/al_jazeera_clean.json')
