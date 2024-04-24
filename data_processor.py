@@ -39,7 +39,13 @@ class DataProcessor:
 
         # Initialize counters
         self.keywords_counter = {'earthquake': [0] * int(self.span), 'quake': [0] * int(self.span),
-                                 'shock': [0] * int(self.span), 'magnitude': [0] * int(self.span)}
+                                 'shock': [0] * int(self.span), 'magnitude': [0] * int(self.span),
+                                 'seismic': [0] * int(self.span), 'aftershock': [0] * int(self.span),
+                                 'fault': [0] * int(self.span), 'tectonic plates': [0] * int(self.span),
+                                 'epicenter': [0] * int(self.span), 'richter scale': [0] * int(self.span),
+                                 'seismograph': [0] * int(self.span), 'seismology': [0] * int(self.span),
+                                 'seismic waves': [0] * int(self.span)}
+
         self.total_words_counter = [0] * int(self.span)
 
         # Iterate through the data in 6-hour intervals
