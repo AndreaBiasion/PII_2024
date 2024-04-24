@@ -48,8 +48,19 @@ def check_precision(filename, detector, start_date, end_date):
         FP = sum((gt == 0) and (pred == 1) for gt, pred in zip(earthquake_occurrences, detector.vector))
         FN = sum((gt == 1) and (pred == 0) for gt, pred in zip(earthquake_occurrences, detector.vector))
 
-    print(f'Precision: {TP / (TP + FP) * 100:.2f}%')
-    print(f'Recall: {TP / (TP + FN) * 100:.2f}%')
+
+    if TP + FP != 0:
+        precision = TP / (TP + FP)
+        print(f'Precision: {precision * 100:.2f}%')
+    else:
+       print('precision not valid')
+
+    if TP + FN != 0:
+        recall = TP / (TP + FN)
+        print(f'Recall: {recall * 100:.2f}%')
+    else:
+        print('recall not valid')
+
 
 
 #dataset = load_doc('datasets/raw_datasets/rtnews_group_data.json')
@@ -61,11 +72,11 @@ print("Cleaned dataset")
 #save_dataset(dataset, 'datasets/cleaned_datasets/rtnews_group_data_clean.json')
 
 # Usage example
-processor = DataProcessor('datasets/cleaned_datasets/al_jazeera_clean.json')
+processor = DataProcessor('datasets/cleaned_datasets/rtnews_group_data_clean.json')
 processor.load_data()
 
 start_date = datetime(2023, 1, 1, 5, 0, 0)
-end_date = datetime(2023, 3, 30, 23, 59, 0)
+end_date = datetime(2023, 12, 30, 23, 59, 0)
 
 processor.process_data(start_date, end_date)
 
