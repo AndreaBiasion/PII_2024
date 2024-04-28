@@ -47,7 +47,8 @@ class DataProcessor:
                                  'seismic waves': [0] * int(self.span)}
 
         self.total_words_counter = [0] * int(self.span)
-
+        total_words = 0
+        total_earthquakes_words = 0
         # Iterate through the data in 6-hour intervals
         pos = 0
         current_date = self.start_date
@@ -58,8 +59,10 @@ class DataProcessor:
             for date_str, text in self.new_data.items():
                 date = datetime.fromisoformat(date_str).replace(tzinfo=timezone.utc)
                 if current_date <= date < next_date:
+                    total_words += 1
                     for word in self.keywords_counter.keys():
                         if word in text:
+                            total_earthquakes_words += 1
                             self.keywords_counter[word][pos] += 1
                     self.total_words_counter[pos] += len(text.split())
 
@@ -67,6 +70,8 @@ class DataProcessor:
             current_date = next_date
             pos += 1
 
+        print('total words', total_words)
+        print('total eq words', total_earthquakes_words)
         for key, value in self.keywords_counter.items():
             for i in range(0, len(self.total_words_counter)):
                 if self.total_words_counter[i] != 0:
