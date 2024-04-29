@@ -1,6 +1,6 @@
 class Detector:
     def __init__(self):
-        self.treshold = 0.02
+        self.treshold = 0.005
         self.vector = None
         pass
 
