@@ -13,7 +13,7 @@ class DataPlotter:
         # Plot the entire normalized vector
         plt.figure(figsize=(12, 6))
         plt.plot(timeline, self.processor.normalized_vector, label='DataProcessor')
-        plt.plot(timeline, self.detector.vector, label='Detector')
+        #plt.plot(timeline, self.detector.vector, label='Detector')
 
         # Add labels and legend
         plt.title('Data Processor and Detector Results Over Time')

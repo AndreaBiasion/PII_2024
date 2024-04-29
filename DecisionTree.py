@@ -1,6 +1,6 @@
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 from numpy import random
 import numpy as np
 
@@ -26,5 +26,13 @@ class DecisionTree:
         Prediction = model.predict(X_test)
 
         errori = accuracy_score(y_test, Prediction)
+        f1 = f1_score(y_test, Prediction)
 
-        print(errori)
+        precision = precision_score(y_test, Prediction)
+        recall = recall_score(y_test, Prediction)
+
+        print('\nDecision Tree stats')
+        print(f'Accuracy: {errori}')
+        print(f'F1: {f1:.4f}')
+        print(f'Precision: {precision*100}%')
+        print(f'Recall: {recall*100}%')
