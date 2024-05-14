@@ -27,13 +27,13 @@ def check_precision(filename, detector, start_date, end_date):
     print(f'Recall: {TP / (TP + FN) * 100:.2f}%')
 
 
-# dataset = load_doc('datasets/raw_datasets/rtnews_group_data.json')
+#dataset = load_doc('datasets/raw_datasets/rtnews_group_data.json')
 
-# dataset = clean_dataset(dataset)
+#dataset = clean_dataset(dataset)
 
 print("Cleaned dataset")
 
-# save_dataset(dataset, 'datasets/cleaned_datasets/rtnews_group_data_clean.json')
+#save_dataset(dataset, 'datasets/cleaned_datasets/rtnews_group_data_clean.json')
 
 clean_dataset = 'datasets/cleaned_datasets/rtnews_group_data_clean.json'
 
@@ -42,7 +42,7 @@ processor = DataProcessor(clean_dataset)
 processor.load_data()
 
 start_date = datetime(2023, 1, 1, 5, 0, 0)
-end_date = datetime(2024, 1, 30, 23, 59, 0)
+end_date = datetime(2023, 3, 30, 23, 59, 0)
 
 processor.process_data(start_date, end_date)
 
@@ -61,6 +61,7 @@ decision_tree = DecisionTree()
 
 randomForest = RandomForest()
 
+#matrix = np.array(processor.normalized_vector).reshape(-1,1)
 matrix = np.array([v for v in processor.keywords_counter.values()]).reshape(-1, 13)
 label = trueocc.findOccurences('datasets/events_dataset/query.geojson.json', start_date, end_date)
 
