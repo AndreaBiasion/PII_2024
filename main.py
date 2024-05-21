@@ -35,14 +35,16 @@ print("Cleaned dataset")
 
 # save_dataset(dataset, 'datasets/cleaned_datasets/rtnews_group_data_clean.json')
 
-clean_dataset = 'datasets/cleaned_datasets/rtnews_group_data_clean.json'
+clean_dataset = 'datasets/cleaned_datasets/al_jazeera_clean.json'
 
 # Usage example
 processor = DataProcessor(clean_dataset)
 processor.load_data()
 
+# print(f"Messaggi: {len(processor.new_data)}")
+
 start_date = datetime(2023, 1, 1, 5, 0, 0)
-end_date = datetime(2024, 1, 30, 23, 59, 0)
+end_date = datetime(2023, 12, 30, 23, 59, 0)
 
 processor.process_data(start_date, end_date)
 
@@ -53,6 +55,7 @@ detector.detect(processor)
 plotter = DataPlotter(processor, detector)
 plotter.plot_data()
 
+
 check_precision('datasets/events_dataset/query.geojson.json', detector, start_date, end_date)
 
 trueocc = TrueOccurences()
@@ -61,14 +64,19 @@ decision_tree = DecisionTree()
 
 randomForest = RandomForest()
 
-matrix = np.array([v for v in processor.keywords_counter.values()]).reshape(-1, 13)
+arrays = list(processor.keywords_counter.values())
+
+X = np.column_stack(arrays)
+
+# matrix = np.array([v for v in processor.keywords_counter.values()]).reshape(-1, 13)
 label = trueocc.findOccurences('datasets/events_dataset/query.geojson.json', start_date, end_date)
 
-decision_tree.classify(matrix, label)
+decision_tree.classify(X, label)
 
-randomForest.classify(matrix, label)
+randomForest.classify(X, label)
 
 random_forest_optimized = RandomForestOptimized()
 
-random_forest_optimized.train(matrix, label)
-random_forest_optimized.evaluate(matrix, label)
+random_forest_optimized.train(X, label)
+random_forest_optimized.evaluate(X, label)
+

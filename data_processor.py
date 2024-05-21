@@ -13,6 +13,8 @@ class DataProcessor:
         self.interval = None
         self.span = None
         self.normalized_vector = None
+        self.total_words = None
+        self.total_messages = None
 
     def load_data(self):
         with open(self.filename, 'r') as file:
@@ -41,13 +43,14 @@ class DataProcessor:
         self.keywords_counter = {'earthquake': [0] * int(self.span), 'quake': [0] * int(self.span),
                                  'shock': [0] * int(self.span), 'magnitude': [0] * int(self.span),
                                  'seismic': [0] * int(self.span), 'aftershock': [0] * int(self.span),
-                                 'fault': [0] * int(self.span), 'tectonic plates': [0] * int(self.span),
+                                 'fault': [0] * int(self.span),'tectonic plates': [0] * int(self.span),
                                  'epicenter': [0] * int(self.span), 'richter scale': [0] * int(self.span),
                                  'seismograph': [0] * int(self.span), 'seismology': [0] * int(self.span),
-                                 'seismic waves': [0] * int(self.span)}
+                                 'seismic waves': [0] * int(self.span),}
 
         self.total_words_counter = [0] * int(self.span)
-        total_words = 0
+        self.total_words = 0
+        self.total_messages = 0
         total_earthquakes_words = 0
         # Iterate through the data in 6-hour intervals
         pos = 0
@@ -59,7 +62,8 @@ class DataProcessor:
             for date_str, text in self.new_data.items():
                 date = datetime.fromisoformat(date_str).replace(tzinfo=timezone.utc)
                 if current_date <= date < next_date:
-                    total_words += 1
+                    self.total_messages += 1
+                    self.total_words += len(text.split())
                     for word in self.keywords_counter.keys():
                         if word in text:
                             total_earthquakes_words += 1
@@ -70,8 +74,26 @@ class DataProcessor:
             current_date = next_date
             pos += 1
 
-        print('total words', total_words)
-        print('total eq words', total_earthquakes_words)
+        print('Total Words:', self.total_words)
+        print('Total Messages:', self.total_messages)
+        print('Total Earthquake-Related Words:', total_earthquakes_words)
+
+        totale_parole = 0
+        for i in range(len(self.total_words_counter)):
+            totale_parole += self.total_words_counter[i]
+
+        print('Total Parole:', totale_parole)
+        # Sum the counts for each keyword
+        keyword_totals = {keyword: sum(counts) for keyword, counts in self.keywords_counter.items()}
+
+        # Sort the keywords by total counts in descending order
+        sorted_keywords = sorted(keyword_totals.items(), key=lambda item: item[1], reverse=True)
+
+        # Print the sorted keyword counts
+        for keyword, total in sorted_keywords:
+            print(f"{keyword}: {total}")
+
+
         for key, value in self.keywords_counter.items():
             for i in range(0, len(self.total_words_counter)):
                 if self.total_words_counter[i] != 0:
@@ -80,9 +102,6 @@ class DataProcessor:
         self.normalized_vector = [0] * len(self.total_words_counter)
 
         for key, value in self.keywords_counter.items():
-            #print(key, value)
             for i in range(0, len(self.normalized_vector)):
                 self.normalized_vector[i] += value[i]
 
-        #for i in range(0, len(self.normalized_vector)):
-            #print(self.normalized_vector[i])
